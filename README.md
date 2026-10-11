@@ -9,6 +9,12 @@ Stripe's `v1` signature and never looking at `t`, which leaves a
 captured request replayable forever. This does the three common schemes
 in one place, correctly, with an exit code you can script on.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
